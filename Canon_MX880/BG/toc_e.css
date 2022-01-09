@@ -1,0 +1,103 @@
+/* updated: 2009/08/20 for V1 */
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #000;
+	font-size: 9pt;
+	font-family: Arial;
+	width: 600px;
+}
+a {color:#000000;text-decoration:none}
+a:hover {color:#36c;text-decoration:underline}
+
+#head {
+	margin: 0;
+	padding: 0;
+	width: 584px;	
+	height: 176px;
+	background: #039 url("images/head_top.gif") no-repeat top left;
+}
+#head_contents {
+	width: 196px;	
+	height: 128px;
+	padding-top: 50px;
+  margin-left: 14px;
+  color: #ffffff;
+}
+#pilots {
+	position: absolute;
+	left: 40px;
+	top: 94px;
+}
+#number {
+	position: absolute;
+	left: 128px;
+	top: 138px;
+	color: #fff;
+	font-size: 8pt;
+}
+#howto {
+	position: absolute;
+	top: 155px;
+	left: 0px;
+	width: 574px;
+	height: 20px;
+	text-align: right;
+	font-size: 8pt;
+}
+#howto td {
+	font-size: 8pt;
+}
+#howto a {color:#fff;text-decoration:none}
+#howto a:hover {text-decoration:underline}
+#head_contents a {color:#fff;text-decoration:none}
+#head_contents a:hover {text-decoration:underline}
+
+#container {
+	margin: 0;
+	padding: 0 0 20px 0;
+	width: 584px;
+}
+.toc-right {
+	width: 272px;
+	margin: 15px 5px 0 0;
+	padding: 0 0 0 10px;
+	float: left;
+}
+.toc-left {
+	width: 272px;
+	margin: 15px 0 0 5px;
+	padding: 0 10px 0 0;
+	float: left;
+	border-right: 1px solid #999;
+}
+h1 {
+	margin: 20px 0 10px 0;
+	padding: 10px 0 0 10px;
+	text-indent: -10px;
+	font-size: 10pt;
+	border-top: 1px solid #999;
+}
+h1.first {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: none;
+}
+p.toc1 {
+	margin: 5px 0 5px 10px;
+}
+p.toc2 {
+	margin: 5px 0 5px 20px;
+}
+img {
+  border: 0px;
+}
+
+h1.contents {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	font-size: 11pt;
+	border-top: none;
+}

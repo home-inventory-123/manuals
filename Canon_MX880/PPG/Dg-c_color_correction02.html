@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link href="topic_e.css" rel="stylesheet" type="text/css"/>
+<title>Adjusting Colors with the Printer Driver</title>
+</head>
+<body class="html_body" id="top">
+<div id="header"></div>
+<div id="navi">
+<span class="stc"><a href="../CNT/Top.html">Advanced Guide</a></span> &gt; <span class="stc"><a href="../CNT/G01.html">Printing from a Computer</a></span> &gt; <span class="stc"><a href="../CNT/Y01.html">Printing with Other Application Software</a></span> &gt; <span class="stc"><a href="Dg-print3.html">Changing the Print Quality and Correcting Image Data</a></span> &gt; <span class="stc"><a href="Dg-c_color_correction.html">Specifying Color Correction</a></span> &gt; <span class="stc">Adjusting Colors with the Printer Driver</span>
+</div>
+<span class="mp">P015</span>
+<h1 class="head1" id="Dg-c_color_correction02">
+<span class="stc">Adjusting Colors with the Printer Driver</span>
+</h1>
+<div class="lead1">
+<p class="lead1_para">
+<span class="stc">You can specify the color correction function of the printer driver to print sRGB data with color tints that most people prefer through the use of Canon Digital Photo Color.</span><br/>
+<span class="stc">When printing from an application software that can identify ICC profiles and allows you to specify them, use a printing ICC profile in the application software, and select settings for color management.</span>
+</p>
+</div>
+<div class="body1">
+<p class="body1_para">
+<span class="stc">The procedure for adjusting colors with the printer driver is as follows:</span>
+</p>
+<div class="body2">
+<h2 class="head2">
+<span class="stc">If you are using Mac OS X v.10.6.x or Mac OS X v.10.5.x</span>
+</h2>
+<p class="body2_para">
+<span class="stc">This section describes procedures for using the printer driver called "CUPS driver."</span><br/>
+<span class="stc">For information about the CUPS driver, see "<a href="Dg-c_driver_change.html">Drivers Installed on Mac OS X v.10.5.x</a>."</span>
+</p>
+<div class="step2">
+<ol type="1">
+<li class="step2" value="1">
+<p class="step1_title">
+<span class="stc">Select <span class="ui">Quality &amp; Media</span> from the pop-up menu of the <a href="Dg-pagesetup.html">Print Dialog</a></span>
+</p>
+<div class="step1_fig">
+<img src="screens/correction_quality_lpd.gif" class="fig_image" alt="figure:Quality &amp; Media in the Print dialog"/>
+</div>
+</li>
+<li class="step2" value="2">
+<p class="step1_title">
+<span class="stc">Select the media type</span>
+</p>
+<p class="step1_para">
+<span class="stc">For <span class="ui">Media Type</span>, select the same media type loaded in the machine.</span>
+</p>
+</li>
+<li class="step2" value="3">
+<p class="step1_title">
+<span class="stc">Select the print quality</span>
+</p>
+<p class="step1_para">
+<span class="stc">For <span class="ui">Print Quality</span>, select <span class="ui">High</span>, <span class="ui">Standard</span>, or <span class="ui">Fast</span>, according to your purpose.</span>
+</p>
+</li>
+<li class="step2" value="4">
+<p class="step1_title">
+<span class="stc">Select color correction</span>
+</p>
+<p class="step1_para">
+<span class="stc">Select <span class="os_ui">Color Matching</span> from the pop-up menu, then select <span class="os_ui">Canon Color Matching</span> (<span class="os_ui">Vendor Matching</span>).</span>
+</p>
+<div class="step1_fig">
+<img src="screens/c_correction1_lpd.gif" class="fig_image" alt="figure:Select Vendor Matching of Color Matching in the Print dialog"/>
+</div>
+</li>
+<li class="step2" value="5">
+<p class="step1_title">
+<span class="stc">Select color mode</span>
+</p>
+<p class="step1_para">
+<span class="stc">From the pop-up menu, select <span class="ui">Color Options</span>.</span>
+<span class="stc">Then for <span class="ui">Color Mode</span>, select the mode that matches your purpose from among <span class="ui">Standard</span> and <span class="ui">Vivid Photo</span>.</span>
+</p>
+<div class="step1_fig">
+<img src="screens/c_mode.gif" class="fig_image" alt="figure:Color Mode of Color Options in the Print dialog"/>
+</div>
+<div class="step1_list">
+<ul class="step1_list">
+<li class="step1_bullet" type="disc">
+<p class="bullet_title">
+<span class="stc"><span class="ui">Standard</span></span>
+</p>
+<p class="step_para">
+<span class="stc">Select this function to print using Canon Digital Photo Color.</span><br/>
+<span class="stc">The printer prints data with color tints that most people prefer, reproducing colors of the original image data and producing three-dimensional effects and high, sharp contrasts.</span>
+</p>
+</li>
+<li class="step1_bullet" type="disc">
+<p class="bullet_title">
+<span class="stc"><span class="ui">Vivid Photo</span></span>
+</p>
+<p class="step_para">
+<span class="stc">Select this function to print with even more vivid hues.</span><br/>
+<span class="stc">The vivid photo function allows you to print image data with vivid colors.</span><br/>
+<span class="stc">The vivid photo function emphasizes the colors in background sceneries while maintaining the human skin color natural.</span>
+</p>
+</li>
+</ul>
+</div>
+<div class="step1_note">
+<img src="images/i_note.gif" alt=""/><span class="stc">Note</span>
+<div class="note_list">
+<ul class="note_list">
+<li class="note_bullet" type="disc">
+<p class="step_para">
+<span class="stc">If the CUPS driver is not being used, <span class="ui">Color Mode</span> is not displayed.</span><br/>
+<span class="stc">In this case, from the pop-up menu in the Print dialog, select <span class="ui">Special Effects</span> and then select <span class="ui">Vivid Photo</span>.</span>
+</p>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="step2" value="6">
+<p class="step1_title">
+<span class="stc">Set the other items</span>
+</p>
+<p class="step1_para">
+<span class="stc">If necessary, adjust the color balance (<span class="ui">Cyan</span>, <span class="ui">Magenta</span>, <span class="ui">Yellow</span>) and adjust the <span class="ui">Brightness</span>, <span class="ui">Intensity</span>, and <span class="ui">Contrast</span> settings.</span>
+</p>
+</li>
+<li class="step2" value="7">
+<p class="step1_title">
+<span class="stc">Complete the setup</span>
+</p>
+<p class="step1_para">
+<span class="stc">Click <span class="os_ui">Print</span>.</span><br/>
+<span class="stc">When you execute print, the printer driver adjusts the colors when printing the data.</span>
+</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="body2">
+<h2 class="head2">
+<span class="stc">If you are using Mac OS X v.10.4.11</span>
+</h2>
+<div class="step2">
+<ol type="1">
+<li class="step2" value="1">
+<p class="step1_title">
+<span class="stc">Select <span class="ui">Quality &amp; Media</span> from the pop-up menu of the <a href="Dg-pagesetup.html">Print Dialog</a></span>
+</p>
+<div class="step1_fig">
+<img src="screens/correction_quality.gif" class="fig_image" alt="figure:Quality &amp; Media in the Print dialog"/>
+</div>
+</li>
+<li class="step2" value="2">
+<p class="step1_title">
+<span class="stc">Select the media type</span>
+</p>
+<p class="step1_para">
+<span class="stc">For <span class="ui">Media Type</span>, select the same media type loaded in the machine.</span>
+</p>
+</li>
+<li class="step2" value="3">
+<p class="step1_title">
+<span class="stc">Select the print quality</span>
+</p>
+<p class="step1_para">
+<span class="stc">For <span class="ui">Print Quality</span>, select <span class="ui">High</span>, <span class="ui">Standard</span>, or <span class="ui">Fast</span>, according to your purpose.</span>
+</p>
+</li>
+<li class="step2" value="4">
+<p class="step1_title">
+<span class="stc">Select color correction</span>
+</p>
+<p class="step1_para">
+<span class="stc">Select <span class="ui">Color Options</span> from the pop-up menu, then select <span class="ui">Driver Matching</span> from the <span class="ui">Color Correction</span> menu.</span>
+</p>
+<div class="step1_fig">
+<img src="screens/c_correction1.gif" class="fig_image" alt="figure:Select Driver Matching from Color Correction of Color Options in the Print dialog"/>
+</div>
+</li>
+<li class="step2" value="5">
+<p class="step1_title">
+<span class="stc">Set the other items</span>
+</p>
+<p class="step1_para">
+<span class="stc">If necessary, adjust the color balance (<span class="ui">Cyan</span>, <span class="ui">Magenta</span>, <span class="ui">Yellow</span>) and adjust the <span class="ui">Brightness</span>, <span class="ui">Intensity</span>, and <span class="ui">Contrast</span> settings.</span>
+</p>
+</li>
+<li class="step2" value="6">
+<p class="step1_title">
+<span class="stc">Complete the setup</span>
+</p>
+<p class="step1_para">
+<span class="stc">Click <span class="os_ui">Print</span>.</span><br/>
+<span class="stc">When you execute print, the printer driver adjusts the colors when printing the data.</span>
+</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="body2">
+<h2 class="head2">
+<span class="stc">Related Topics</span>
+</h2>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_print_quality.html">Selecting a Combination of the Print Quality Level and a Halftoning Method</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_color_correction.html">Specifying Color Correction</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_color_balance.html">Adjusting Color Balance</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_brightness.html">Adjusting Brightness</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_intensity.html">Adjusting Intensity</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_contrast.html">Adjusting Contrast</a></span>
+</p>
+</div>
+</div>
+<p class="foot-button">
+<a href="Dg-c_iccprofile.html">
+<img src="images/prev.gif" alt="Back"/>
+</a>
+<a href="Dg-c_color_correction03.html">
+<img src="images/next.gif" alt="Next"/>
+</a>
+</p>
+<p class="gototop">
+<span class="stc"><a href="#top">Page top</a></span>
+<img src="images/page_top.gif" alt=""/>
+</p>
+</body>
+</html>

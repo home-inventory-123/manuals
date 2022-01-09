@@ -1,0 +1,49 @@
+body.html_body {
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #000000;
+	font-size: 9pt;
+	font-family: Arial;
+}
+a {color:#000000;text-decoration:none}
+a:hover {color:#999;text-decoration:none}
+
+#top_header  {
+	margin: 0;
+	height: 138px;
+	background: url("images/top_bg.jpg") no-repeat top left;
+}
+#number {
+	position: absolute;
+	top: 100px; left: 10px;
+	font-size: 9pt;
+	font-family: "Arial";
+}
+#about-link {
+	text-align: right;
+	margin: 0 0 20px 0;
+}
+#about-link a {color:#060;text-decoration:none}
+#about-link a:hover {color:#999;text-decoration:none}
+table {
+	margin: 0 0 0 20px;
+	padding: 0 0 20px 0;
+}
+.topic-link {
+	margin: 0;
+	padding: 0 0 10px 0;
+	background: #e0ffed;
+}
+h2 {
+	margin: 0 0 5px 0;
+	padding: 3px 3px 3px 1em;
+	font-size: 9pt;
+	color: #fff;
+	background: #18c66b;
+}
+p {
+	margin: 0;
+	padding: 3px 3px 3px 1em;
+}

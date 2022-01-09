@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link href="topic_e.css" rel="stylesheet" type="text/css"/>
+<title>Printing with ICC Profiles (Specifying an ICC Profile from the Application Software)</title>
+</head>
+<body class="html_body" id="top">
+<div id="header"></div>
+<div id="navi">
+<span class="stc"><a href="../CNT/Top.html">Advanced Guide</a></span> &gt; <span class="stc"><a href="../CNT/G01.html">Printing from a Computer</a></span> &gt; <span class="stc"><a href="../CNT/Y01.html">Printing with Other Application Software</a></span> &gt; <span class="stc"><a href="Dg-print3.html">Changing the Print Quality and Correcting Image Data</a></span> &gt; <span class="stc"><a href="Dg-c_color_correction.html">Specifying Color Correction</a></span> &gt; <span class="stc">Printing with ICC Profiles (Specifying an ICC Profile from the Application Software)</span>
+</div>
+<span class="mp">P720</span>
+<h1 class="head1" id="Dg-c_color_correction03">
+<span class="stc">Printing with ICC Profiles (Specifying an ICC Profile from the Application Software)</span>
+</h1>
+<div class="body1">
+<p class="body1_para">
+<span class="stc">When you print from Adobe Photoshop, Canon Digital Photo Professional, or any application software that can identify input ICC profiles and allows you to specify such profiles, printer uses the color management system (ColorSync) built-into Macintosh when printing.</span>
+<span class="stc">The printer prints the editing and touch-up results of the application software and effectively uses the color space of the input ICC profile specified in the image data.</span>
+</p>
+<p class="body1_para">
+<span class="stc">To use this printing method, use your application software to select color management items and specify an input ICC profile and a printing ICC profile in the image data.</span><br/>
+<span class="stc">Even if you print using a printing ICC profile that you created yourself or one for special Canon paper, be sure to select color management items from your application software.</span><br/>
+<span class="stc">For instructions on specifying an ICC profile with an application software program, refer to the manual of the application software you are using.</span>
+</p>
+<div class="body2">
+<h2 class="head2">
+<span class="stc">If you are using Mac OS X v.10.6.x or Mac OS X v.10.5.x</span>
+</h2>
+<div class="step2">
+<ol type="1">
+<li class="step2" value="1">
+<p class="step1_title">
+<span class="stc">Select <span class="ui">Quality &amp; Media</span> from the pop-up menu of the <a href="Dg-pagesetup.html">Print Dialog</a></span>
+</p>
+<div class="step1_fig">
+<img src="screens/correction_quality_lpd.gif" class="fig_image" alt="figure:Quality &amp; Media in the Print dialog"/>
+</div>
+</li>
+<li class="step2" value="2">
+<p class="step1_title">
+<span class="stc">Select the media type</span>
+</p>
+<p class="step1_para">
+<span class="stc">For <span class="ui">Media Type</span>, select the same media type loaded in the machine.</span>
+</p>
+</li>
+<li class="step2" value="3">
+<p class="step1_title">
+<span class="stc">Select the print quality</span>
+</p>
+<p class="step1_para">
+<span class="stc">For <span class="ui">Print Quality</span>, select <span class="ui">High</span>, <span class="ui">Standard</span>, or <span class="ui">Fast</span> according to your purpose.</span>
+</p>
+</li>
+<li class="step2" value="4">
+<p class="step1_title">
+<span class="stc">Select color correction</span>
+</p>
+<p class="step1_para">
+<span class="stc">Select <span class="os_ui">Color Matching</span> from the pop-up menu, and then select <span class="os_ui">ColorSync</span>.</span><br/>
+<span class="stc">You can leave <span class="os_ui">Profile</span> set to <span class="os_ui">Automatic</span>.</span>
+</p>
+<div class="step1_fig">
+<img src="screens/c_correction_cm_lpd.gif" class="fig_image" alt="figure:Select ColorSync for Color Matching in the Print dialog"/>
+</div>
+<div class="step1_note">
+<img src="images/i_important.gif" alt=""/><span class="stc">Important</span>
+<div class="important_list">
+<ul class="important_list">
+<li class="note_bullet" type="disc">
+<p class="step_para">
+<span class="stc">Depending on the application software you use, you may not be able to select setting items other than <span class="os_ui">ColorSync</span>.</span>
+</p>
+</li>
+<li class="note_bullet" type="disc">
+<p class="step_para">
+<span class="stc">When you select a <span class="os_ui">Profile</span> setting other than <span class="os_ui">Automatic</span> or a printing ICC profile paper, the printer will not be able to print with the correct colors.</span>
+</p>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="step2" value="5">
+<p class="step1_title">
+<span class="stc">Complete the setup</span>
+</p>
+<p class="step1_para">
+<span class="stc">Click <span class="os_ui">Print</span>.</span><br/>
+<span class="stc">When you execute print, the printer uses the color space of the image data.</span>
+</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="body2">
+<h2 class="head2">
+<span class="stc">If you are using Mac OS X v.10.4.11</span>
+</h2>
+<div class="step2">
+<ol type="1">
+<li class="step2" value="1">
+<p class="step1_title">
+<span class="stc">Select <span class="ui">Quality &amp; Media</span> from the pop-up menu of the <a href="Dg-pagesetup.html">Print Dialog</a></span>
+</p>
+<div class="step1_fig">
+<img src="screens/correction_quality.gif" class="fig_image" alt="figure:Quality &amp; Media in the Print dialog"/>
+</div>
+</li>
+<li class="step2" value="2">
+<p class="step1_title">
+<span class="stc">Select the media type</span>
+</p>
+<p class="step1_para">
+<span class="stc">For <span class="ui">Media Type</span>, select the same media type loaded in the machine.</span>
+</p>
+</li>
+<li class="step2" value="3">
+<p class="step1_title">
+<span class="stc">Select the print quality</span>
+</p>
+<p class="step1_para">
+<span class="stc">For <span class="ui">Print Quality</span>, select <span class="ui">High</span>, <span class="ui">Standard</span>, or <span class="ui">Fast</span> according to your purpose.</span>
+</p>
+</li>
+<li class="step2" value="4">
+<p class="step1_title">
+<span class="stc">Select color correction</span>
+</p>
+<p class="step1_para">
+<span class="stc">Select <span class="ui">Color Options</span> from the pop-up menu, then select <span class="ui">None</span> from the <span class="ui">Color Correction</span> menu.</span>
+</p>
+<div class="step1_fig">
+<img src="screens/c_correction3.gif" class="fig_image" alt="figure:Select None from Color Correction of Color Options in the Print dialog"/>
+</div>
+</li>
+<li class="step2" value="5">
+<p class="step1_title">
+<span class="stc">Complete the setup</span>
+</p>
+<p class="step1_para">
+<span class="stc">Click <span class="os_ui">Print</span>.</span><br/>
+<span class="stc">When you execute print, the printer uses the color space of the image data.</span>
+</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="body2">
+<h2 class="head2">
+<span class="stc">Related Topics</span>
+</h2>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_print_quality.html">Selecting a Combination of the Print Quality Level and a Halftoning Method</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_color_correction.html">Specifying Color Correction</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_color_balance.html">Adjusting Color Balance</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_brightness.html">Adjusting Brightness</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_intensity.html">Adjusting Intensity</a></span>
+</p>
+<p class="body2_para">
+<img src="images/arrow.gif" class="fig_image" alt=""/>
+<span class="stc"><a href="Dg-c_contrast.html">Adjusting Contrast</a></span>
+</p>
+</div>
+</div>
+<p class="foot-button">
+<a href="Dg-c_color_correction02.html">
+<img src="images/prev.gif" alt="Back"/>
+</a>
+<a href="Dg-c_color_correction04.html">
+<img src="images/next.gif" alt="Next"/>
+</a>
+</p>
+<p class="gototop">
+<span class="stc"><a href="#top">Page top</a></span>
+<img src="images/page_top.gif" alt=""/>
+</p>
+</body>
+</html>

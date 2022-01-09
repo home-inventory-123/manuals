@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link href="topic_e.css" type="text/css" rel="StyleSheet"/>
+		<title>Cannot Mount the Card Slot</title>
+	</head>
+
+	<body class="html_body">
+		<a name="top"></a>
+		<div id="header"></div>
+		<div id="navi">
+			<span class="stc"><a href="../CNT/Top.html">Advanced Guide</a></span> &gt; <span class="stc"><a href="../CNT/G11.html">About Network Communication</a></span> &gt; <span class="stc"><a href="../CNT/Y26.html">Troubleshooting</a></span> &gt; <span class="stc">Cannot Mount the Card Slot</span></div>
+		<span class="mp">N054</span>
+		<h1 class="head1" id="wp1064962"><span class="stc">Cannot Mount the Card Slot</span></h1>
+		<div class="body1">
+			
+			<h2 class="head2" id="wp1015488"><span class="stc">The Card Slot Cannot Be Mounted with IJ Network Tool</span></h2>
+			<div class="body2">
+				<p class="body2_para" id="wp1065952"><span class="stc">You can mount the Card Slot to use it over network without using IJ Network Tool.</span></p>
+				<div class="important2">
+					<div class="icon">
+						<img src="images/i_important_e.gif" alt=""/><span class="stc">Important</span></div>
+					<div class="important_list">
+						<ul class="note_list">
+							<li class="note_bullet" type="disc" id="wp1066050">
+								<p class="step para"><span class="stc">If you change the printer name with <span class="ui">Set printer name</span> in <span class="ui">Other settings</span> under <span class="ui">LAN settings</span> using the Operation Panel of the machine before you mount the Card Slot with IJ Network Tool, you cannot mount the Card Slot with IJ Network Tool.</span> <span class="stc">In this case, follow the procedure below and input the specified printer name in place of the Default Name to mount the Card Slot manually.</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="step2">
+					<ol type="1">
+						<li class="step2" value="1" id="wp1015490">
+							<p class="step2_title"><span class="stc">Check the Default Name of the machine by selecting <span class="ui">Network Information</span> on the <span class="ui">View</span> menu of IJ Network Tool.</span></p>
+						</li>
+						<li class="step2" value="2" id="wp1015491">
+							<p class="step2_title"><span class="stc">On Finder, click the <span class="os_ui">Go</span> menu and <span class="os_ui">Connect to Server</span>.</span></p>
+						</li>
+						<li class="step2" value="3" id="wp1015492">
+							<p class="step2_title"><span class="stc">Input &quot;smb://xxxxxxxxxxxx/canon_memory/&quot;, then click <span class="os_ui">Connect</span>.</span></p>
+							<p class="step para" id="wp1015493"><span class="stc">For example, if the Default Name is &quot;0000000847B6/canon_memory&quot;, then input &quot;smb://0000000847B6/canon_memory/&quot;.</span></p>
+							<div class="note2">
+								<div class="icon">
+									<img src="images/i_note_e.gif" alt=""/><span class="stc">Note</span></div>
+								<div class="note_list">
+									<ul class="note_list">
+										<li class="note_bullet" type="disc" id="wp1015495">
+											<p class="step para"><span class="stc">The authentication screen may appear.</span> <span class="stc">If it appears, you do not need to input the password.</span></p>
+										</li>
+										<li class="note_bullet" type="disc" id="wp1015496">
+											<p class="step para"><span class="stc">If you cannot mount the Card Slot with the method above, input the IP address of the machine instead of the 12 alphanumeric characters of the Default Name, and try again.</span> <span class="stc">For example, &quot;smb://192.168.1.1/canon_memory/&quot;.</span> <span class="stc">If you mount the Card Slot with the IP address, you have to remount it whenever the machine's IP address changes.</span></p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<br/>
+		<p class="gototop"><span class="stc"><a href="#top">Page top</a></span><img src="screens/page_top.gif" alt=""/></p>
+		<br/>
+	</body>
+
+</html>

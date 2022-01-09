@@ -1,0 +1,461 @@
+/* updated: 2010/06/16 for V1 */
+
+span.mp{
+	margin: 0 0 12px 0px;
+	font-size: 10pt;
+	font-family: Arial;
+	padding: 1px 5px 1px 5px;
+	border: 1px solid #666;
+	background: #fffce0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-size: 9pt;
+	font-family: Arial;
+	width: 600px;
+}
+
+.ui,
+.os_ui {
+	font-weight: bold;
+}
+
+a:link {color:#36c;text-decoration:none}
+a:visited {color:#36c;text-decoration:none}
+a:active {color:#999;text-decoration:none}
+a:hover {color:#999;text-decoration:none}
+
+#head  {
+	margin: 0px;
+	height: 30px;
+	background: #fff url("images/head.gif") no-repeat top left;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+.handbook {
+	padding: 12px 5px 0 0;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: right;
+}
+.handbook a:hover {
+	color: #339;
+}
+.handbook a:link {
+	color: #00f;
+}
+.body1 {
+	margin: 0 15px 0 15px;
+}
+.navi {
+	font-size: 8pt;
+	text-align: left;
+	margin-bottom: 12pt;
+	border-bottom: 1px solid #ccc;
+}
+
+em.Jump_blue{
+  font-style: normal;
+  font-weight: normal;
+  color: #36c;
+}
+.body_bold em.Jump_blue{
+  font-style: normal;
+  font-weight: bold;
+  color: #36c;
+}
+
+.body_indent1 em.Jump_blue{
+  font-style: normal;
+  font-weight: bold;
+  color: #36c;
+}
+a:hover em.Jump_blue{
+  color: #999;
+}
+
+#page-num {
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+#page-num span {
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #666;
+}
+.page-top {
+	padding: 0 0 15px 0;
+	color: #000000;
+	font-size: 8pt;
+	text-align: right;
+}
+
+h1.head1 {
+	margin: 5px 0 3px 0;
+	font-size: 14pt;
+	color: #000066;
+}
+p {
+	margin: 5px 0 5px 0;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #000000;
+}
+p.step1_title {
+	font-size: 11pt;
+}
+p.para {
+	margin: 0;
+	font-size: 8pt;
+}
+h2.head2 {
+	margin: 30px 0 10px 0;
+	padding: 0 0 0 25px;
+	height: 19px;
+	background: transparent url("images/link1.gif") no-repeat top left;
+	font-size: 10pt;
+}
+h3 {
+	margin-bottom: 5px;
+	font-size: 9pt;
+	color: #000000;
+
+}
+h3.heading3_bullet {
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 14pt;
+	color: #000000;
+}
+
+.fig1 {
+	margin: 20px 0 20px 0;
+}
+.fig2 {
+	margin: 20px 0 20px 25px;
+}
+.step1_fig {
+	margin: 10px 0 20px 0;
+}
+
+.icon {
+	font-size: 11pt;
+	font-weight: bold;
+	color: #000;
+}
+
+
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul.note_list {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+ol {
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+li {
+	margin: 0;
+}
+li.note_bullet {
+	list-style-type: square;
+	color: #999;
+}
+li.step1 {
+	margin-top: 20px;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #006;
+}
+.note1 {
+	margin: 10px 0 15px 0;
+	color: #000;
+}
+.important1 {
+	margin: 10px 0 15px 0;
+	color: #000;
+}
+.important-body {
+	padding: 4px;
+	border-top: 1px solid #c33;
+	border-bottom: 1px solid #c33;
+	background-color: #fee;
+  margin-bottom: 5.5pt;
+}
+.caution-body {
+	padding: 4px;
+	border-top: 1px solid #c33;
+	border-bottom: 1px solid #c33;
+	background-color: #fff;
+  margin-bottom: 5.5pt;
+}
+.note-body {
+	padding: 4px;
+	border-top: 1px solid #399;
+	border-bottom: 1px solid #399;
+	background-color: #fff;
+  margin-bottom: 5.5pt;
+}
+.step_para {
+	margin: 0;
+	font-size: 8pt;
+}
+.tablegroup_table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;	
+	border: 1px solid #666;	
+}
+.tablegroup_table td {
+	border: 1px solid #666;	
+}
+
+.cstep_paren {
+	font-size: 11pt;
+	font-style: normal;
+	font-weight: bold;
+	color: #000066;
+}
+.cstep {
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #006;
+}
+.bottom {
+	margin-top: 33pt;
+}
+img {
+	border: 0px;
+}
+
+.gototop {
+	margin: 15px;
+	padding-bottom: 15px;
+	font-size: 8pt;
+	text-align: right;
+	line-height: 1.3;
+}
+p.foot-button {
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+div.body_indent2
+{
+  margin-left: 33.839996pt;
+}
+div.body_indent1
+{
+  margin-left: 20pt;
+}
+div.step_body_indent2
+{
+  margin-left: 37pt;
+}
+div.step_body_indent
+{
+  margin-left: 37pt;
+}
+div.step_body
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  margin-top: 2pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+
+
+p.Windows_icon_S2
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 2pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: -24pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+
+p.Macintosh_icon_S2
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 2pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: -24pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+
+p.Windows_icon_M2
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 2pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: -28pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+p.Macintosh_icon_M2
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 2pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: -28pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+p.Windows_icon_L2
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 2pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: -26pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 10pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+p.Macintosh_icon_L2
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 2pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: -26pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 10pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+p.td2
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 5pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 11pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+p.Macintosh_icon_M3
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 2pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: -28pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 22pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+
+.td3 {
+	width: 200px;
+}
+
+.td4 {
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0pt;
+  margin-left: -11pt;
+  margin-right: 0pt;
+  margin-top: 12pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}
+
+p.body_indent2
+{
+  color: #000000;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0pt;
+  margin-left: 33.839996pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0pt;
+  text-transform: none
+}

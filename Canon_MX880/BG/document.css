@@ -1,0 +1,17 @@
+/* Default style for links */
+a:link    { color: #0000c1;}
+a:visited { color: #B719B1;}
+a:hover   { color: #ff0000;}
+a:active  { color: #ff0000;}
+
+/* Default style */
+body
+{
+	background-color: #FFFFFF;
+	width: 600px;
+}
+
+/* Use this style for footnote numbers */
+sup.Footnote
+{
+}
